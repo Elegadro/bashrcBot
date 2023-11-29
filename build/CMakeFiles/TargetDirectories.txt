@@ -1,0 +1,3 @@
+/home/elegadro/bashrcBot/build/CMakeFiles/bashrc.dir
+/home/elegadro/bashrcBot/build/CMakeFiles/edit_cache.dir
+/home/elegadro/bashrcBot/build/CMakeFiles/rebuild_cache.dir

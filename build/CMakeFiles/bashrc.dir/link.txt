@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bashrc.dir/src/main.cpp.o -o bashrc  /usr/lib/libdpp.so 
