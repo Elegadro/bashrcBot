@@ -4,7 +4,11 @@ project(bashrc VERSION 1.0 DESCRIPTION ".bashrc bot")
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
+
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+
+include_directories(inc)
 
 find_package(DPP REQUIRED)
 
